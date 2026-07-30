@@ -1,0 +1,53 @@
+$CAMERA
+  $TYPE
+# Camera name
+    RC20-13180-19911021
+  $SERIAL
+# Manufacturer's serial number
+    13180
+  $DATE
+# Date of last change of camera data
+    09:47:48 21/10/2009
+  $KIND
+# Sensor kind (possible: FilmFrame,CCDFrame,CCDLine)
+    FilmFrame
+  $BRAND
+# Manufacturer or brand
+    RC 20
+  $FOCAL_LENGTH
+    153.2400000
+  $PRINCIPAL_POINT_PPS
+# Principal Point of Symmetry w.r.t. Fiducial Centre
+      -0.0040000    0.0050000
+
+  $FIDUCIALS
+#     name      x             y
+         1   106.0010000  -106.0010000 1
+         2  -106.0010000  -106.0010000 2
+         3  -106.0020000   106.0030000 3
+         4   106.0050000   106.0060000 4
+         5     0.0030000  -110.0000000 5
+         6  -109.9970000    -0.0010000 6
+         7     0.0030000   110.0010000 7
+         8   110.0060000     0.0000000 8
+  $DISTORTION_TYPE
+#  type of distortion correction applied to image coordinates
+      SimpleRadial
+  $DISTORTION
+#          radius    distortion
+        0.0000000     0.0000000
+       10.0000000     0.0007000
+       20.0000000     0.0009000
+       30.0000000     0.0009000
+       40.0000000     0.0010000
+       50.0000000     0.0008000
+       60.0000000     0.0005000
+       70.0000000     0.0002000
+       80.0000000     0.0000000
+       90.0000000    -0.0001000
+      100.0000000    -0.0005000
+      110.0000000    -0.0004000
+      120.0000000    -0.0008000
+      130.0000000    -0.0009000
+      140.0000000    -0.0005000
+      148.0000000     0.0013000
