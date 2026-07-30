@@ -4,7 +4,7 @@ This project performs the interior orientation of a scanned analog aerial photog
 
 The program requires two initial fiducial measurements from the user. It then predicts and detects all eight fiducial marks, estimates affine and projective transformations between pixel and camera coordinates, and computes the fiducial center.
 
-![Detected fiducial marks and fiducial center](Figure_1.png)
+![Detected fiducial marks and fiducial center](figures/Figure_1.png)
 
 ## Workflow
 
@@ -96,3 +96,15 @@ The calibration reader supports either an RC-style file containing a `$FIDUCIALS
 ## Limitation
 
 The current implementation uses the calibrated fiducial coordinates but does not apply the calibrated focal length, principal-point-of-symmetry offset, or radial lens-distortion corrections. The reported point is therefore the **fiducial center**, not a complete calibrated principal point.
+
+## Dataset
+
+The original aerial image (`1614.tif`) used during development is not included in this repository because it exceeds GitHub's maximum file size.
+
+To reproduce the experiments, place the original image in:
+
+```
+data/1614.tif
+```
+
+The remaining metadata files (`RC20.txt` and `meta.txt`) are included.
